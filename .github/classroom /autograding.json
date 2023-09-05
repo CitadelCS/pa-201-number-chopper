@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Chop 1234",
+      "setup": "",
+      "run": "mvn test -Dtest=NumberChopperTests#shouldChop1234",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Chop 5555",
+      "setup": "",
+      "run": "mvn test -Dtest=NumberChopperTests#shouldChop5555",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Chop 8765",
+      "setup": "",
+      "run": "mvn test -Dtest=NumberChopperTests#shouldChop8765",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Reject 123",
+      "setup": "",
+      "run": "mvn test -Dtest=NumberChopperTests#shouldReject123",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Reject 12345",
+      "setup": "",
+      "run": "mvn test -Dtest=NumberChopperTests#shouldReject12345",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    }
+  ]
+}
